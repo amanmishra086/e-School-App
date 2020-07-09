@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="my.awesome.schoolapp.Teacher_View_Attendance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/View_attendance_class"
+            android:entries="@array/Class"
+            android:spinnerMode="dropdown"
+            android:textAlignment="viewStart"/>
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/View_Attendace_section"
+            android:entries="@array/Section"
+            android:spinnerMode="dropdown"
+            android:textAlignment="viewStart"/>
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/View_Attendance_Subject"
+            android:entries="@array/Subject"
+            android:spinnerMode="dropdown"
+            android:textAlignment="viewStart"/>
+
+
+    </LinearLayout>
+
+
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/View_date"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/View_attendance_btn"
+        android:layout_height="wrap_content"
+        android:text="View Attendance"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SchoolApp</string>
+
+    <array name="Class">
+        <item>Class</item>
+        <item>L.K.G</item>
+        <item>U.K.G</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+    </array>
+
+    <array name="Section">
+        <item>Section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+
+    </array>
+
+    <array name="Subject">
+        <item>Subject</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>History</item>
+        <item>Civics</item>
+        <item>Geography</item>
+        <item>Economics</item>
+        <item>Hindi</item>
+        <item>English</item>
+
+    </array>
+
+
+</resources>

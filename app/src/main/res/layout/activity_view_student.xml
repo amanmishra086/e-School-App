@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="my.awesome.schoolapp.ViewStudent">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:id="@+id/View_Class"
+        android:entries="@array/Class"
+        android:spinnerMode="dropdown"
+        android:textAlignment="viewStart"/>
+ <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:id="@+id/View_section"
+        android:entries="@array/Section"
+        android:spinnerMode="dropdown"
+        android:textAlignment="viewStart"/></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewStudent_btn"
+        android:text="View Student"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <ListView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView">
+
+    </ListView>
+
+</LinearLayout>

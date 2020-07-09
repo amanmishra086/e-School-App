@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="my.awesome.schoolapp.NoticeDetail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Young Phoenix Public School"
+        android:textSize="25dp"
+        android:textColor="#5858FA"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhubaneshwar,Odissa"
+        android:textColor="#5858FA"
+        android:textSize="23dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Subject_detail"
+        android:text="Subject"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:layout_marginTop="35dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/Notice_detail"
+        android:text="Notice details"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pdf"
+        android:text="Download PDF"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>
