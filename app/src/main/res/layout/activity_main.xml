@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:fontFamily="casual"
-                    android:text="Parent"
+                    android:text="Student"
                     android:textColor="#FBFCFC"
                     android:textSize="20sp" />
 
